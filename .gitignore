@@ -1,0 +1,60 @@
+# ---------------------------------------------------------------------------
+# MounRiver Studio / Eclipse / RISC-V build outputs
+# ---------------------------------------------------------------------------
+obj/
+*.o
+*.d
+*.a
+*.elf
+*.hex
+*.bin
+*.lst
+*.map
+*.mem
+*.mem_bak
+*.prefs
+.settings/
+.metadata/
+*.launch
+*.wvproj
+
+# ---------------------------------------------------------------------------
+# OS / editor junk
+# ---------------------------------------------------------------------------
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/
+*.code-workspace
+*~
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# ---------------------------------------------------------------------------
+# Archives and non-portable shortcuts
+# ---------------------------------------------------------------------------
+*.rar
+*.zip
+*.7z
+*.tar
+*.gz
+*.tgz
+*.lnk
+*.url
+
+# ---------------------------------------------------------------------------
+# Large media files
+# GitHub's soft limit is 100 MB per file and it rejects files above 200 MB.
+# No such file is tracked here. For future large media, use Git LFS or a link.
+# ---------------------------------------------------------------------------
+*.iso
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.psd
+*.raw
+*.bag

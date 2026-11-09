@@ -1,0 +1,18 @@
+# Normalize text line endings; binary files are marked below.
+* text=auto
+
+# The original source comments are GBK/GB2312. Store UTF-8 in Git so GitHub
+# displays Chinese correctly, while keeping GBK in the working tree for MRS.
+/firmware/**/*.c working-tree-encoding=GB18030
+/firmware/**/*.h working-tree-encoding=GB18030
+
+# Binary assets
+*.pdf binary
+*.PDF binary
+*.pptx binary
+*.exe binary
+*.a binary
+*.o binary
+*.elf binary
+*.hex binary
+*.bin binary
